@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'),
+    url('../fonts/lato-v23-latin-regular.woff2') format('woff2'),
+    url('../fonts/lato-v23-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('LatoMedium.eot');
+  src: local('Lato Medium'), local('Lato-Medium'),
+    url('../fonts/LatoMedium.woff2') format('woff2'),
+    url('../fonts/LatoMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Latobold.eot');
+  src: local('Lato bold'), local('Lato-bold'),
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Lato SemiBold'),
+    url('../fonts/lato-v23-latin-700.woff2') format('woff2'),
+    url('../fonts/lato-v23-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Aretha';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Aretha-Bold.eot');
+  src: local('Aretha Bold'), local('Aretha-Bold'),
+    url('../fonts/ArethaBold.woff2') format('woff2'),
+    url('../fonts/ArethaBold.woff2') format('woff');
+}

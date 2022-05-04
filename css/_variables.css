@@ -1,0 +1,15 @@
+:root {
+  /* Шрифты */
+  --Lato: "Lato";
+  --Aretha: "Aretha";
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+
+  --dafault-fs: 20px;
+  --default-lh: 32px;
+
+  /* Цвета */
+  --gray: #331A2FCC;
+}
