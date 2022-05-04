@@ -12,4 +12,9 @@
 
   /* Цвета */
   --gray: #331A2FCC;
+  --lightgray: #E5E5E5;
+
+  /* Container */
+  --container-max-width: 1380px;
+  --container-padding: 50px;
 }
