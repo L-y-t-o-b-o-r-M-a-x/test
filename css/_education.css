@@ -1,0 +1,34 @@
+.education {
+  padding-top: 70px;
+  padding-bottom: 131px;
+}
+
+.education__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education__title {
+  max-width: 678px;
+  margin-bottom: 32px;
+}
+
+.education__number {
+  position: relative;
+  color: var(--pink);
+}
+
+.education__number::before {
+  content: "";
+  position: absolute;
+  left: -82px;
+  bottom: 0px;
+  width: 261px;
+  border-bottom: 7px solid var(--pink);
+}
+
+.education__text {
+  max-width: 846px;
+  margin-bottom: 85px;
+}

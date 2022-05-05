@@ -21,7 +21,7 @@
 }
 
 .card-detail__content {
-  width: calc(750 / 1560 * 100%);
+  width: calc(750 / 1530 * 100%);
   min-height: 240px;
 }
 

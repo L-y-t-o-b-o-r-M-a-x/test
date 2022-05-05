@@ -6,11 +6,12 @@
 .aboutus__wrapper {
   margin-left: auto;
   margin-right: auto;
-  width: calc(1320 / 1560 * 100%);
+  width: calc(1320 / 1530 * 100%);
 }
 
 .aboutus__title {
   max-width: 844px;
   margin-bottom: 85px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

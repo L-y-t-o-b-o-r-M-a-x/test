@@ -60,7 +60,7 @@
 
 
 .hero__content {
-  width: calc(868 / 1560 * 100%);
+  width: calc(868 / 1530 * 100%);
   margin-right: 42px;
 }
 
@@ -78,7 +78,7 @@
 
 .hero__img-wrap {
   position: relative;
-  width: calc(620 / 1560 * 100%);
+  width: calc(620 / 1530 * 100%);
   min-height: 563px;
   background-image: url('../img/stars.jpg');
   background-repeat: no-repeat;
