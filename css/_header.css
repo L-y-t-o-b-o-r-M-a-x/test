@@ -1,0 +1,104 @@
+.header {
+  min-height: 92px;
+  padding-top: 23px;
+  padding-bottom: 33px;
+  background-color: var(--white);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left,
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+
+.header__log {
+  display: flex;
+  align-items: flex-start;
+  max-width: 489px;
+  margin-right: 25px;
+}
+
+.header__logo::after {
+  content: "";
+  position: absolute;
+  left: 260px;
+  height: 80px;
+  border-left: 1px solid rgba(51, 26, 47, 0.5);
+
+}
+
+.header__logo {
+  position: relative;
+  width: 241px;
+  min-height: 71px;
+  margin-right: 44px;
+}
+
+
+.header__text {
+  max-width: 204px;
+  min-height: 54px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--darkgray);
+}
+
+.header__select {
+  margin-right: 50px;
+  border: none;
+  font-weight: var(--regular);
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--black)
+}
+
+.header__link {
+  font-weight: var(--regular);
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--black);
+}
+
+.header__address {
+  margin-right: 91px;
+}
+
+.header__contacts {
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 24px;
+  line-height: 35px;
+  color: var(--black);
+}
+
+.header__btn {
+  position: relative;
+  max-width: 169px;
+  min-height: 45px;
+  padding: 4px 32px 5px 69px;
+  color: var(--white);
+  background-color: #CF51CE;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.header__btn::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 32px;
+  bottom: 0;
+  right: 0;
+  width: 23px;
+  height: 23px;
+  background-image: url('../img/Icon-arrow.svg');
+  background-repeat: no-repeat;
+}

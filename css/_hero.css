@@ -1,0 +1,97 @@
+.hero {
+  padding-top: 33px;
+  padding-bottom: 87px;
+}
+
+.hero__caption {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: var(--regular);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--lightgray)
+}
+
+.hero__wrapper {
+  display: flex;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 22px;
+  font-weight: var(--bold);
+  font-size: 56px;
+  line-height: 80px;
+  color: var(--black);
+}
+
+.hero__title-color {
+  color: var(--pink);
+}
+
+.hero__money {
+  padding-left: 73px;
+  margin-bottom: 16px;
+  background-image: url('../img/money.svg');
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.hero__from {
+  font-weight: var(--semibold);
+  font-size: var(--dafault-fs);
+  line-height: 29px;
+  color: var(--black);
+}
+
+.hero__currency {
+  font-weight: var(--regular);
+  font-size: 30px;
+  line-height: 29px;
+  color: var(--black);
+}
+
+.hero__money-price {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  color: var(--pink);
+}
+
+
+.hero__content {
+  width: calc(868 / 1560 * 100%);
+  margin-right: 42px;
+}
+
+
+.hero__text {
+  margin: 0;
+  font-weight: var(--regular);
+  font-size: 25px;
+  line-height: 160%;
+}
+
+.hero__text:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.hero__img-wrap {
+  position: relative;
+  width: calc(620 / 1560 * 100%);
+  min-height: 563px;
+  background-image: url('../img/stars.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 41px;
+}
+
+.hero__img-wrap::before {
+  content: "";
+  position: absolute;
+  bottom: 41px;
+  left: 30px;
+  width: 560px;
+  height: 560px;
+  background-image: url(../img/Superman.svg);
+}

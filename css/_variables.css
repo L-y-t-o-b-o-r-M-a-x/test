@@ -5,16 +5,23 @@
   --regular: 400;
   --medium: 500;
   --semibold: 600;
-  --bold: 700;
+  --bold: 700; 
 
   --dafault-fs: 20px;
   --default-lh: 32px;
 
   /* Цвета */
   --gray: #331A2FCC;
-  --lightgray: #E5E5E5;
+  --darkgray: #331A2FE5;
+  --black: #331A2F;
+  --pink: #CF51CE;
+  --white: #FFFFFF;
 
   /* Container */
-  --container-max-width: 1380px;
-  --container-padding: 50px;
+  --container-max-width: 1610px;
+  --container-padding: 40px;
+
+
+/* Transition */
+--short: .3s;
 }
