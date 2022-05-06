@@ -27,12 +27,21 @@ body {
   background-color: var(--white);
 }
 
-.container {
-  max-width: var(--container-max-width);
+.container-wrapper {
+  max-width: var(--container-wrapper-max-width);
   margin-left: auto;
   margin-right: auto;
+  padding-left: var(--container-wrapper-padding);
+  padding-right: var(--container-wrapper-padding);
+  background-color: lightgrey;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
+  background-color: var(--white);
 }
 
 .reset-btn {

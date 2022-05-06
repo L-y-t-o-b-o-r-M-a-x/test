@@ -5,7 +5,7 @@
   --regular: 400;
   --medium: 500;
   --semibold: 600;
-  --bold: 700; 
+  --bold: 700;
 
   --dafault-fs: 20px;
   --default-lh: 32px;
@@ -17,11 +17,17 @@
   --pink: #CF51CE;
   --white: #FFFFFF;
 
+
+  /* container-wrapper */
+  --container-wrapper-max-width: 1920px;
+  --container-wrapper-padding: 76px;
+
+
   /* Container */
-  --container-max-width: 1610px;
-  --container-padding: 40px;
+  --container-max-width: 1768px;
+  --container-padding: 119px;
 
 
-/* Transition */
---short: .3s;
+  /* Transition */
+  --short: .3s;
 }

@@ -1,0 +1,17 @@
+.container-wrapper {
+  position: relative;
+  padding-top: 14px;
+}
+
+/* .container-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 782px;
+  height: 783px;
+  background-image: url('../img/part-of-a-circle.svg');
+  background-repeat: no-repeat;
+} */
