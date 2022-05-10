@@ -1,6 +1,6 @@
 .hero {
-  padding-top: 50px;
-  padding-bottom: 87px;
+  padding-top: 54px;
+  padding-bottom: 47px;
 }
 
 .hero__caption {
@@ -30,16 +30,16 @@
 }
 
 .hero__money {
-  padding-left: 73px;
+  padding-left: 79px;
   margin-bottom: 16px;
   background-image: url('../img/money.svg');
   background-repeat: no-repeat;
-  background-position: 10px;
+  background-position: 5px 5px;
 }
 
 .hero__from {
   font-weight: var(--semibold);
-  font-size: var(--dafault-fs);
+  font-size: 30px;
   line-height: 29px;
   color: var(--black);
 }
@@ -73,17 +73,17 @@
 }
 
 .hero__text:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .hero__img-wrap {
   position: relative;
   width: calc(620 / 1530 * 100%);
   min-height: 563px;
-  background-image: url('../img/stars.jpg');
+  background-image: url('../img/bigstars.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 41px;
+  background-position: -15px 7px;
 }
 
 .hero__img-wrap::before {

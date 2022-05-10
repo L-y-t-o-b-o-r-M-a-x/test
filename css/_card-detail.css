@@ -3,28 +3,36 @@
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  max-width: 1320px;
+  max-width: 1286px;
   width: 100%;
-  min-height: 470px;
+  min-height: 469px;
+  padding: 114px 90px 117px 482px;
   background-repeat: no-repeat;
   background-size: 456px 469px;
-  background-position: left;
+  background-position: -53px top;
 }
 
-.card-detail_img {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+.card-marriage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  max-width: 1304px;
+  width: 100%;
+  min-height: 474px;
+  padding: 103px 554px 109px 0;
   background-repeat: no-repeat;
   background-size: 474px 474px;
-  background-position: right;
+  background-position: 799px top;
 }
 
 .card-detail__content {
-  width: calc(750 / 1530 * 100%);
   min-height: 240px;
 }
 
-.card-detail__content-text {
-  margin-bottom: 15px;
+.card-marriage__content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 255px;
 }

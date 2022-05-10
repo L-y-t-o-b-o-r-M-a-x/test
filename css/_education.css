@@ -12,6 +12,7 @@
 .education__title {
   max-width: 678px;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .education__number {
@@ -30,5 +31,6 @@
 
 .education__text {
   max-width: 846px;
-  margin-bottom: 85px;
+  margin-bottom: 80px;
+  text-align: center;
 }

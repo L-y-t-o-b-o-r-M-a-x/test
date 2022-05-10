@@ -20,7 +20,7 @@ a {
 }
 
 body {
-  font-family: var(--Lato), Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: var(--dafault-fs);
   line-height: var(--default-lh);
   color: var(--gray);
@@ -33,7 +33,6 @@ body {
   margin-right: auto;
   padding-left: var(--container-wrapper-padding);
   padding-right: var(--container-wrapper-padding);
-  background-color: lightgrey;
 }
 
 .container {
@@ -41,6 +40,14 @@ body {
   margin: 0 auto;
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
+  background-color: var(--white);
+}
+
+.container-aboutus {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding-left: 278px;
+  padding-right: 180px;
   background-color: var(--white);
 }
 
@@ -52,7 +59,7 @@ body {
 
 .section-title {
   margin: 0;
-  font-weight: var(--regular);
+  font-weight: var(--bold);
   font-size: 48px;
   line-height: 64px;
   color: var(--black);

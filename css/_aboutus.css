@@ -1,17 +1,16 @@
 .aboutus {
-  padding-top: 88px;
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 
 .aboutus__wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  width: calc(1320 / 1530 * 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .aboutus__title {
   max-width: 844px;
   margin-bottom: 85px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
