@@ -1,6 +1,6 @@
 .header {
   padding-top: 32px;
-  padding-bottom: 33px;     
+  padding-bottom: 33px;
 }
 
 .header__wrapper {
@@ -93,7 +93,7 @@
 
 .header__right {
   display: flex;
-  align-items: center;        
+  align-items: center;
 }
 
 .header__address {
@@ -106,8 +106,8 @@
 .header__address::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 5px;
+  top: 6px;
+  left: 7px;
   width: 24px;
   height: 24px;
   background-image: url('../img/telephone.svg');
@@ -126,7 +126,7 @@
   position: relative;
   max-width: 169px;
   min-height: 45px;
-  padding: 0 35px 4px 74px;
+  padding: 0 38px 4px 74px;
   color: var(--white);
   background-color: #CF51CE;
   border-radius: 12px;

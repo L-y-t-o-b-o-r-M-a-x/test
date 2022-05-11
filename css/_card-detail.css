@@ -1,38 +1,25 @@
-.card-detail {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  max-width: 1286px;
+.card__detail {
+  max-width: 1320px;
   width: 100%;
-  min-height: 469px;
-  padding: 114px 90px 117px 482px;
+  padding-top: 114px;
+  padding-right: 34px;
+  padding-bottom: 115px;
+  padding-left: 37%;
   background-repeat: no-repeat;
-  background-size: 456px 469px;
-  background-position: -53px top;
 }
 
-.card-marriage {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  max-width: 1304px;
+.card__marriage {
+  max-width: 1320px;
   width: 100%;
-  min-height: 474px;
-  padding: 103px 554px 109px 0;
+  padding-top: 105px;
+  padding-right: 38%;
+  padding-bottom: 109px;
+  padding-left: 20px;
   background-repeat: no-repeat;
-  background-size: 474px 474px;
-  background-position: 799px top;
+  background-position: right;
 }
 
-.card-detail__content {
-  min-height: 240px;
-}
-
-.card-marriage__content-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 255px;
+.card__span {
+  display: inline-block;
+  margin-top: 15px;
 }

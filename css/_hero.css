@@ -1,15 +1,11 @@
 .hero {
-  padding-top: 54px;
-  padding-bottom: 47px;
+  padding-top: 36px;
+  padding-bottom: 30px;
 }
 
-.hero__caption {
+.hero__nav {
   display: inline-block;
   margin-bottom: 15px;
-  font-weight: var(--regular);
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--lightgray)
 }
 
 .hero__wrapper {
@@ -30,29 +26,29 @@
 }
 
 .hero__money {
-  padding-left: 79px;
-  margin-bottom: 16px;
+  padding-left: 76px;
+  margin-bottom: 12px;
   background-image: url('../img/money.svg');
   background-repeat: no-repeat;
-  background-position: 5px 5px;
+  background-position: left top;
 }
 
 .hero__from {
   font-weight: var(--semibold);
   font-size: 30px;
   line-height: 29px;
-  color: var(--black);
+  color: var(--lightgray)
 }
 
 .hero__currency {
   font-weight: var(--regular);
   font-size: 30px;
   line-height: 29px;
-  color: var(--black);
+  color: var(--lightgray);
 }
 
 .hero__money-price {
-  font-weight: 700;
+  font-weight: var(--bold);
   font-size: 38px;
   line-height: 55px;
   color: var(--pink);
@@ -61,12 +57,13 @@
 
 .hero__content {
   width: calc(868 / 1530 * 100%);
-  margin-right: 42px;
+  margin-right: 72px;
 }
 
 
 .hero__text {
-  margin: 0;
+  max-width: 847px;
+  margin-top: 0;
   font-weight: var(--regular);
   font-size: 25px;
   line-height: 160%;
@@ -78,20 +75,20 @@
 
 .hero__img-wrap {
   position: relative;
-  width: calc(620 / 1530 * 100%);
-  min-height: 563px;
-  background-image: url('../img/bigstars.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -15px 7px;
-}
-
-.hero__img-wrap::before {
-  content: "";
-  position: absolute;
-  bottom: 41px;
-  left: 30px;
   width: 560px;
   height: 560px;
-  background-image: url(../img/Superman.svg);
+  background-image: url('../img/Superman.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__img-wrap::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -25px;
+  width: 620px;
+  height: 563px;
+  background-image: url(../img/bigstars.svg);
+  background-color: transparent;
 }
