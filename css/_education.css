@@ -24,7 +24,7 @@
   content: "";
   position: absolute;
   left: -82px;
-  bottom: 0px;
+  top: 55px;
   width: 261px;
   border-bottom: 7px solid var(--pink);
 }

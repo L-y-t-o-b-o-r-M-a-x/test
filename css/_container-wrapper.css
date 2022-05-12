@@ -1,17 +1,54 @@
 .container-wrapper {
-  position: relative;
+  width: var(--container-wrapper-max-width);
+  width: 100%;
   padding-top: 14px;
 }
 
-/* .container-wrapper::before {
+.container-wrapper::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 782px;
-  height: 783px;
-  background-image: url('../img/part-of-a-circle.svg');
+  width: calc(782 / 1920 * 100%);
+  background-image: url('../img/big-circle.svg');
   background-repeat: no-repeat;
-} */
+}
+
+.container-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 66%;
+  left: 98%;
+  width: 760px;
+  height: 760px;
+  overflow: hidden;
+  background-image: url('../img/small-circle.svg');
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1536px) {
+
+  .container-wrapper {
+    padding-top: 0;
+  }
+
+  .container-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 446px;
+    height: 447px;
+    background-image: url('../img/big-circle@1280.svg');
+    background-repeat: no-repeat;
+  }
+
+  .container-wrapper::after {
+    display: none;
+  }
+
+}
