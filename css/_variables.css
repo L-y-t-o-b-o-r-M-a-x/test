@@ -34,7 +34,7 @@
   --short: .3s;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 1024px) {
   :root {
     --container-padding: 15px;
 

@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 36px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -62,11 +62,12 @@
 
 
 .hero__text {
-  max-width: 847px;
+  max-width: 867px;
   margin-top: 0;
   font-weight: var(--regular);
   font-size: 25px;
   line-height: 160%;
+  word-spacing: 3px;
 }
 
 .hero__text:not(:last-child) {
@@ -92,4 +93,102 @@
   height: 563px;
   background-image: url(../img/bigstars.svg);
   background-color: transparent;
+}
+
+@media (max-width: 1536px) {
+
+  .hero {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  .hero__content {
+    width: calc(711 / 1200 * 100%);
+    margin-right: 54px;
+  }
+
+  .hero__title {
+    margin-bottom: 40px;
+    font-size: 46px;
+    line-height: 65px;
+  }
+
+  .hero__money {
+    margin-bottom: 37px;
+    padding-left: 71px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .hero__money-price {
+    margin-right: 6px;
+  }
+
+  .hero__text {
+    max-width: 711px;
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+
+  .hero__text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .hero__img-wrap {
+    max-width: 435px;
+    height: 435px;
+    background-image: url('../img/Superman@1280.svg');
+  }
+
+  .hero__img-wrap::after {
+    max-width: 458px;
+    height: 416px;
+    background-image: url(../img/bigstars@1280.svg);
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .hero {
+    padding-top: 28px;
+    padding-bottom: 30px;
+  }
+
+  .container {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+
+  .hero__content {
+    width: 100%;
+    margin-right: 18px;
+  }
+
+  .hero__title {
+    margin-bottom: 18px;
+  }
+
+  .hero__money {
+    margin-bottom: 13px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .hero__text {
+    max-width: 482px;
+    word-spacing: 2px;
+  }
+
+  .hero__img-wrap {
+    display: none;
+    width: 30%;
+    height: 410px;
+    background-image: url('../img/Superman@768.svg');
+  }
+
+  .hero__img-wrap::after {
+    display: none;
+  }
+
 }
