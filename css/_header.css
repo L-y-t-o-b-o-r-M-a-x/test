@@ -284,11 +284,15 @@
 
   .header {
     padding-top: 33px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .header__wrapper {
     display: flex;
+  }
+
+  .header__left {
+    padding-left: 0px;
   }
 
   .header__logo {

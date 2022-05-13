@@ -34,3 +34,11 @@
   }
 
 }
+
+@media (max-width: 601px) {
+
+  .nav {
+    max-width: 156px;
+  }
+
+}

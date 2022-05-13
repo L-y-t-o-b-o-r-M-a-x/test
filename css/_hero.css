@@ -161,8 +161,20 @@
   }
 
   .hero__content {
+    position: relative;
     width: 100%;
-    margin-right: 18px;
+    margin-right: 0;
+  }
+
+  .hero__content::after {
+    content: '';
+    position: absolute;
+    top: 141px;
+    right: -184px;
+    width: 50%;
+    height: 410px;
+    background-image: url('../img/Superman@768.svg');
+    background-repeat: no-repeat;
   }
 
   .hero__title {
@@ -182,13 +194,54 @@
 
   .hero__img-wrap {
     display: none;
-    width: 30%;
-    height: 410px;
-    background-image: url('../img/Superman@768.svg');
   }
 
   .hero__img-wrap::after {
     display: none;
+  }
+
+}
+
+@media (max-width: 601px) {
+
+  .hero {
+    padding-top: 12px;
+    padding-bottom: 40px;
+  }
+
+  .hero__content::after {
+    top: -48px;
+    right: -43px;
+    width: 50%;
+    height: 245px;
+    background-image: url('../img/Superman@360.svg');
+  }
+
+  .hero__nav {
+    margin-bottom: 44px;
+  }
+
+  .hero__title {
+    max-width: 202px;
+    margin-bottom: 24px;
+    font-size: 26px;
+    line-height: 39px;
+  }
+
+  .hero__money {
+    margin-bottom: 12px;
+    padding-left: 74px;
+  }
+
+  .hero__text {
+    max-width: 330px;
+    padding-left: 2px;
+    font-size: 18px;
+    word-spacing: 1px;
+  }
+
+  .hero__text:not(:last-child) {
+    margin-bottom: 11px;
   }
 
 }
