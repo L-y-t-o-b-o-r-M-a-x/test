@@ -17,6 +17,9 @@
   --pink: #CF51CE;
   --white: #FFFFFF;
 
+  /*Sizes*/
+  --body-min-width: 360px;
+
 
   /* container-wrapper */
   --container-wrapper-max-width: 1920px;
@@ -29,4 +32,14 @@
 
   /* Transition */
   --short: .3s;
+}
+
+@media (max-width: 601px) {
+  :root {
+    --container-padding: 15px;
+
+    --dafault-fs: 18px;
+    --default-lh: 29px;
+
+  }
 }

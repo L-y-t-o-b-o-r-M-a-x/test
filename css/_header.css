@@ -98,7 +98,7 @@
 .header__address {
   position: relative;
   margin-right: 91px;
-  padding-left: 44px;
+  padding-left: 41px;
 }
 
 .header__address::before {
@@ -196,15 +196,23 @@
     height: 7px;
   }
 
+  .header__right {
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+  }
+
+
   .header__address {
-    margin-right: 95px;
+    justify-content: flex-start;
+    margin-right: 0;
   }
 
   .header__address::before {
     content: "";
     position: absolute;
     top: 8px;
-    left: 18px;
+    left: 16px;
     width: 16px;
     height: 16px;
     background-image: url('../img/telephone@1280.svg');
@@ -213,9 +221,9 @@
 
   .header__btn {
     position: relative;
-    min-width: 152px;
+    max-width: 152px;
     min-height: 44px;
-    padding: 4px 34px 4px 30px;
+    padding: 4px 34px 4px 66px;
     font-size: 18px;
     text-align: right;
   }
@@ -224,15 +232,6 @@
     width: 20px;
     height: 20px;
     background-image: url('../img/Icon-arrow@1280.svg');
-  }
-}
-
-@media (max-width: 1280px) {
-
-  .header__text,
-  .header__select-choices,
-  .header__address {
-    margin-right: 17px;
   }
 }
 
@@ -248,6 +247,14 @@
     padding-right: 15px;
   }
 
+  .header__right {
+    width: 18%;
+  }
+
+  .header__text {
+    margin-right: 0;
+  }
+
   .header__link,
   .header__select-choices,
   .header__address {
@@ -260,10 +267,64 @@
   }
 
   .header__btn {
-    padding: 4px 26px 4px 31px;
+    max-width: 158px;
+    padding: 4px 34px 4px 66px;
     font-size: 20px;
   }
 
+}
 
+@media (max-width: 601px) {
+
+  .container {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+
+  .header {
+    padding-top: 33px;
+    padding-bottom: 20px;
+  }
+
+  .header__wrapper {
+    display: flex;
+  }
+
+  .header__logo {
+    width: 140px;
+    height: 32px;
+    margin-right: 23px;
+  }
+
+  .header__logo::before {
+    display: none;
+  }
+
+  .header__text {
+    display: none;
+  }
+
+  .header__right {
+    display: inline-block;
+    width: 38%;
+  }
+
+  .header__btn {
+    margin-right: 22px;
+    min-width: 103px;
+    min-height: 36px;
+    padding: 4px 20px 4px 41px;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 6px;
+  }
+
+  .header__btn::before {
+    top: 10px;
+    left: 20px;
+    width: 13px;
+    height: 13px;
+    background-image: url('../img/Icon-arrow@360.svg');
+  }
 
 }
